@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+}
+header{
+	background:url(musica.jpg) no-repeat center center fixed;
+	background-size:cover;
+	height:100px;
+	width: 100%;
+ 
+}
+
+h1{
+	color: #FFF;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	text-shadow: 5px 3px 8px #785;
+}
+nav{
+	background-color: #98d;
+	height: 50px;
+	overflow: hidden;
+	
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+ background-color:#434343;
+}
+
+li{
+	float: left;
+	width: 100px;
+	list-style: none;
+	text-align: center;
+}
