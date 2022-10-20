@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: url(../imagenes/flor.png) ;
+	height: 250px;
+	overflow: hidden;
+}
+
+h1{
+	color: #FFF;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	text-shadow: 5px 3px 8px #785;
+}
+nav{
+	background-color: #98d;
+	height: 50px;
+	width: 90%;
+
+	
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+ background-color:#434343;
+}
+
+li{
+	float: left;
+	width: 100px;
+	list-style: none;
+	text-align: center;
+}
+.block {
+  overflow: hidden;
+  background: 
+#D2B4DE;
+  padding: 1rem;
+  width: 900px;
+  margin: 20px;
+
+}
+.block img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 0 1rem 0 0;
+}
+.block h2 {
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+
+body {
+  background:#EBDEF0;
+  color: black;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 85%;
+  line-height: 1.4;
+  margin: 0;
+  padding: 1rem;
+}
+ font-size: 85%;
+  line-height: 1.4;
+  margin: 50;
+  padding: 50px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  background: #ffce00;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.card::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 400;
+  font-size: 6em;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.card .imgBox {
+  position: center;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.card .imgBox img {
+    max-width: 90%;
+    
+    transition: .4s;
+}
+
+.card:hover .imgBox img {
+    max-width: 100%;
+      
+}
+.card .contentBox {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.card .contentBox h3 {
+  font-size: 18px;
+  color: purple;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card .contentBox .price {
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card .contentBox .buy {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #000000;
+  text-decoration: none;
+  background: #ffce00;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.card:hover .contentBox .buy {
+  top: 0;
+  opacity: 1;
+}
+
